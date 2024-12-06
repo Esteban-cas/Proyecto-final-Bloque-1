@@ -1,0 +1,14 @@
+.blue{
+    color:#037BC0 ;
+}
+.back{
+    background-color: #037BC0;
+}
+.centrar{
+    text-align: center; color: white;
+}
+
+button{
+    background-color: rgb(99, 187, 17); color: white; padding: 6px; border-color: lightgreen ;
+}
+
