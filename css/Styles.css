@@ -1,14 +1,55 @@
 .blue{
     color:#037BC0 ;
 }
-.back{
-    background-color: #037BC0;
-}
 .centrar{
     text-align: center;
 }
 
+.contenedorNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.itemnav{
+    color: #037BC0;
+    transition:all ease 300ms;
+}
+.itemnav:hover{
+    color: rgb(235, 4, 247);
+}
+
+.contenedorArticulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+
+.ContenedorArticulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+.Itemproducto{
+    text-align: center; background-color: #037BC0; color: white;
+}
+
+
+
 button{
-    background-color: rgb(99, 187, 17); color: white; padding: 6px; border-color: lightgreen ;
+    background-color: rgb(99, 187, 17);
+    color: white; 
+    padding: 6px; 
+    border-color: rgb(99, 187, 17) ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all ease 300ms;
+}
+button:hover{
+    border-color: rgb(235, 4, 247);
+    background-color:rgb(235, 4, 247) ;
 }
 
