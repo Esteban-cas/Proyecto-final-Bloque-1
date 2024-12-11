@@ -24,25 +24,36 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 60px;
+    height: 400px;
 }
 
 .ContenedorArticulos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 60px;
 }
 .Itemproducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center; background-color: #037BC0; color: white;
 }
 
+.Product2{
+    width: 650px;
+}
 
+.size{
+    width: 400px;
+}
 
 button{
     background-color: rgb(99, 187, 17);
     color: white; 
-    padding: 6px; 
+    padding: 8px; 
     border-color: rgb(99, 187, 17) ;
     border-radius: 10px;
     cursor: pointer;
@@ -51,5 +62,17 @@ button{
 button:hover{
     border-color: rgb(235, 4, 247);
     background-color:rgb(235, 4, 247) ;
+}
+
+.contenedorNav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+.itemdown{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
