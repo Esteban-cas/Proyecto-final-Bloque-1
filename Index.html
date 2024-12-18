@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Proyecto Final</title>
-            <link rel="Stylesheet" href="css/Styles.css">
-            <header class="centrar"><h1><samp >Tienda de <samp class="blue">Muebles</samp></h1></header>   
+        <link rel="Stylesheet" href="css/Styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>     
     </head>
-
+        <header class="centrar">
+            <h1><samp >Tienda de <samp class="blue">Muebles</samp></h1>
+        </header>
     <body>
         <section class="contenedorNav">
             <div>Nav</div> 
@@ -21,20 +25,19 @@
 
         <h2 class="centrar">Nuestros Productos</h2>
 
-        <section class="contenedorArticulo">
-            <div>
-                <img src="img/producto1.jpg" alt="Estante tv" width="800" height="400"></img>
-            </div>
-            <div class="Itemproducto">
+        <section class="contenedorArticulo container-fluid">
+            <img src="img/producto1.jpg" alt="Estante tv" width="800" height="400"></img>
+            <div class="Itemproducto Product2">
                 <h3>Producto 1</h3>
                 <p>La habitación jr. con cajoneras, espacio para librería y compartimento para escritorio <small>(perteneciente a la sección de habitación)</small> 
                 esta disponible por el precio de:</p> 
                 <h3>$12.000.00</h3>
                 <button>Agregar al carrito</button>
             </div>
+            
         </section>
 
-        <section class="ContenedorArticulos">
+        <section class="ContenedorArticulos container-fluid">
             <div class="Product2">
                 <img src="img/producto2.jpg" alt="Sala" width="650" height="400"></img>
                     <div class="Itemproducto">
@@ -54,7 +57,7 @@
             </div>
         </section>
 
-        <section class="ContenedorArticulos">
+        <section class="ContenedorArticulos container-fluid">
             <div>
                 <img src="img/producto4.jpg" alt="Sala" width="400" height="300"></img>
                 <div class="Itemproducto size">
@@ -88,7 +91,7 @@
         <hr>
 
     <h2 class="centrar">Categorías de Productos</h2>
-        <section class="ContenedorArticulos">
+        <section class="ContenedorArticulos container-fluid">
             <div>
                 <img src="img/categoria1.jpg" alt="Categoría1" width="400" height="300">
                 <h3 class="centrar">Oficina</h3>
@@ -104,7 +107,7 @@
         </section>
 
         <footer>
-            <section class="contenedorNav2">
+            <section class="contenedorNav2 container-fluid">
                 <div class="itemdown">
                     <h3>Categorias</h3>
                     <a class="itemnav" href="http://127.0.0.1:5500/cocina.html">Cocina</a>

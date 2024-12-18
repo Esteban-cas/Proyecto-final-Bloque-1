@@ -37,8 +37,8 @@
 .contenedorArticulo{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin: 60px;
+    justify-content: center;
+    margin: 50px;
     height: 400px;
 }
 
@@ -49,6 +49,7 @@
     flex-wrap: wrap;
     margin: 60px;
 }
+
 .Itemproducto{
     display: flex;
     flex-direction: column;
